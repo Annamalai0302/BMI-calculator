@@ -10,13 +10,13 @@ button.addEventListener("click", function () {
   if(BMI<=18.5){
     console.log(alert("You are underweight"));
   }
-  else if(BMI>=18.5 || BMI<=24.9){
+  else if(BMI>=18.5 && BMI<=24.9){
     console.log(alert("You are normal"));
   }
-  else if(BMI>=25 || BMI<=29.9){
-    console.log(alert("You are normal"));
+  else if(BMI>=25 && BMI<=29.9){
+    console.log(alert("You are overweight"));
   }
-  else if(BMI>=30 || BMI<=39.9){
+  else if(BMI>=30 && BMI<=39.9){
     console.log(alert("You are obese"));
   }
   else if(BMI>=40){
