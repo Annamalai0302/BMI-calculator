@@ -1,0 +1,43 @@
+
+.roboto-uniquifier{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  
+}
+#backimage{
+    background-image: url(../css/imagesbmi/bgimage.jpg);
+    background-size: cover;
+}
+.box{
+    width: 450px;
+    height: 280px;
+    background-color: cornsilk;
+    margin-left: 31%;
+    margin-top: 13%;
+    padding: 0%;
+    border-radius: 30px;
+    display: flex;
+    justify-items: center;
+}
+.heading{
+    width: 450px;
+    height: 50px;
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 32%;
+    
+}
+.instruction{
+    margin-top: 0;
+    padding-left: 17%;
+}
+#bmi-btn{
+    margin-left: 36%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #6333a6;
+    border: 0;
+}
+.bmi{
+    padding-left: 20%;
+}
