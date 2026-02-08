@@ -2,6 +2,9 @@ const button = document.getElementById("bmi-btn");
 button.addEventListener("click", function () {
   let weight= prompt("Enter your weight in kg:");
   let height = prompt("Enter your height in cm:");
+  if(weight === null){
+    return;
+  }
   if(weight && height){
   var  heights= height/100 ;
   var BMI = weight/(heights**2);
